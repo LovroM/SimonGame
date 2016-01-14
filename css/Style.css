@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+body {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+.container {
+  margin-top: 4vh;
+  padding: 10px;
+  height: 580px;
+  width: 580px;
+  text-align: center;
+}
+h1 {
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+.shape {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 4px;
+}
+.shape:after {
+  display: block;
+  content: "";
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  z-index:0;
+  position: static;
+}
+.litt {
+  box-shadow: 0 0 30px red;
+}
+#div-0 {
+  background-color: yellowgreen;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+#div-0:after {
+  border-radius: 100% 0 0 0;
+  margin-top: 100px;
+  float: right;
+}
+
+#div-1 {
+  background-color: #f30;
+  position: relative;
+  right: 0px;
+  top: 0px;
+}
+#div-1:after {
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 0 100% 0 0;
+}
+
+#div-2 {
+  background-color: #09f;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+}
+#div-2:after {
+  float: right;
+  border-radius: 0 0 0 100%;
+}
+
+#div-3 {
+  background-color:  #fe4;
+  position: relative;
+  right: 0px;
+  bottom: 0px;
+}
+#div-3:after {
+  border-radius: 0 0 100% 0;
+}
+
+#center-circle {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:-92px;
+  margin-bottom: -87px;
+  border: 2px solid yellowgreen;
+  z-index: 1;
+  position: relative;
+  background-color: white;
+  /*box-shadow: 0 0 60px red;*/
+}
+#turnDisp {
+  font-size: 62px;
+  border-bottom: 2px solid yellowgreen;
+}
+#power {
+ font-size: 18px;
+ margin-top: 4px;
+}
+#power #pOn {
+  text-shadow: none;
+}
+#power #pOff {
+  text-shadow: 0 0 4px red;
+}
+#start {
+  font-size: 18px;
+}
+#strict{
+font-size: 18px;
+  text-shadow: none; /*0 0 4px red*/
+}
